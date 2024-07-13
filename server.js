@@ -38,6 +38,7 @@ const invoiceSchema = new mongoose.Schema({
   village: { type: String },
   mobileNumber: { type: String },
   sofaModel: { type: String },
+  seaterType:{type: Number},
   softySeatingCharge: { type: Number },
   hrFoamSeatingCharge: { type: Number },
   coirFoamSeatingCharge: { type: Number },
